@@ -54,21 +54,21 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 
 ### ⚙ Methods JavaScript of Activities
 
- - find() - [retorna dado(s) do(s) elemento(s) correspondente(s)]
+ - [find()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - [retorna dado do 1° elemento correspondente]
     - Demonstração:
-    [X],[X],[O],[X] find(O) = [O]
+    🔷 🔶 🔵 🔴 find(🔵) = 🔵
+    
+ - [some()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/some) - [retorna booleano do 1° elemento correspondente]
+    - Demonstração:
+    🔷 🔶 🔵 🔴 some(🔵) = true
 
- - some() - [retorna booleano do(s) elemento(s) correspondente(s)]
+ - [filter()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - [filtra o(s) elemento(s) correspondente(s)]
     - Demonstração:
-    [X],[X],[O],[X] some(O) = true
+    🔷 🔶 🔵 🔴 filter🔵 = 🔵 🔴
 
- - filter() - [filtra o(s) elemento(s) correspondente(s)]
+- [splice()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) - [altera/ remove a posição do elemento correspondente]
     - Demonstração:
-    [X],[X],[O],[O] filter(O) = [O],[O]
-
-- splice() - [exclui o(s) elemento(s) correspondente(s)]
-    - Demonstração:
-    [X],[X],[O.p1],[O.p2] splice(O,1) =  [X],[X],[O.p2]
+    🔷 🔶 🔵 🔴 splice(🔵,1) = 🔷 🔶 🔴
 
       * Neste exemplo 'p' representa posição, que é um argumento esperado pelo splice
 

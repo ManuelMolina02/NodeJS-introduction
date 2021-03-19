@@ -2,6 +2,18 @@
 
 ### Description of Activities
 
+ - find() - [retorna dado(s) do(s) elemento(s) correspondente(s)]
+    Demonstração:
+    [X],[X],[O],[X] find(O) = [O]
+
+ - some() - [retorna booleano do(s) elemento(s) correspondente(s)]
+    Demonstração:
+    [X],[X],[O],[X] some(O) = true
+
+ - filter() - [filtra o(s) elemento(s) correspondente(s)]
+    Demonstração:
+    [X],[X],[O],[O] filter(O) = [O],[O]
+
 
 ### Usuários
 

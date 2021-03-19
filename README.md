@@ -1,6 +1,6 @@
-# 🚀 CHALLENGE ONE - IGNITE | Node.js Concepts
+# 🚀 Challenge One - Ignite | Node.js Concepts
 
-## 💻 Sobre o desafio
+## 🔭 Sobre o desafio
  Neste desafio desenvolvi uma aplicação para gerenciar tarefas.   Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
 
 - Criar um novo *todo*;
@@ -11,13 +11,14 @@
 
 Tudo isso para cada usuário em específico (o `username` será passado pelo header).
 
+## ⚠ Validação de Requisitos:
 
-### Testes de usuários
+### 📡 Testes de usuários
 
 - **Should be able to create a new user**
 - **Should not be able to create a new user when username already exists**
 
-### Testes de *todos*
+### 📡 Testes de *todos*
 - **Should be able to list all user's todos**
 - **Should be able to create a new todo**
 - **Should be able to update a todo**
@@ -27,9 +28,9 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 - **Should be able to delete a todo**
 - **Should not be able to delete a non existing todo**
 
-## ⚙ Methods and Parameters used
+## 🧰 Methods and Parameters used
 
-### Types of Parameters
+### 🔧 Types of Parameters
 
 - Route Params => Necessário para identificar um recurso editar/ deletar/ buscar
 
@@ -38,7 +39,7 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 - Body Params => Os objetos de inserção ou alteração (JSON)
 
 
-### Methods HTTP(REST API) of Activities
+### 🔩 Methods HTTP(REST API) of Activities
 
  - GET - Buscar informação dentro do servidor
 
@@ -51,7 +52,7 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
  - DELETE - Remover uma informação do servidor
 
 
-### Methods JavaScript of Activities
+### ⚙ Methods JavaScript of Activities
 
  - find() - [retorna dado(s) do(s) elemento(s) correspondente(s)]
     - Demonstração:

@@ -10,41 +10,41 @@ app.use(express.json());
 
 //Users = Tabela de Usuários
 const users = [
-  {
-    "name": "Tiago",
-    "username": "hxcxtiago",
-    "id": "18c34864-e468-4c97-abdc-e0bc8f7247bc",
-    "todos": [
-      {
-        "id": "00827531-b416-42ab-bc54-06db50d8dd95",
-        "title": "comprar pc",
-        "done": false,
-        "deadline": "2021-03-15T00:00:00.000Z",
-        "createdAt": "2021-03-15T10:32:16.564Z"
-      }
-    ]
-  },
-  {
-    "name": "Manuelso",
-    "username": "hxcxmanu",
-    "id": "5f2d5a20-dc42-4c6d-a211-daabbbbf4463",
-    "todos": [
-      {
-        "id": "f1d1911c-3b09-4d70-8943-188207302a1b",
-        "title": "arrumar carro",
-        "done": false,
-        "deadline": "2021-03-15T00:00:00.000Z",
-        "createdAt": "2021-03-15T10:32:29.818Z"
-      },
-      {
-        "id": "a20a35e7-ad56-4367-99c1-1fb36fa26fb5",
-        "title": "pintar casa",
-        "done": false,
-        "deadline": "2021-03-15T00:00:00.000Z",
-        "createdAt": "2021-03-15T10:32:33.666Z"
-      }
-    ]
-  }
+  // {
+  //   "name": "Tiagon",
+  //   "username": "alotiago",
+  //   "id": "18c34864-e468-4c97-abdc-e0bc8f7247bc",
+  //   "todos": [
+  //     {
+  //       "id": "00827531-b416-42ab-bc54-06db50d8dd95",
+  //       "title": "comprar pc",
+  //       "done": false,
+  //       "deadline": "2021-03-15T00:00:00.000Z",
+  //       "createdAt": "2021-03-15T10:32:16.564Z"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": "Manuelso",
+  //   "username": "opamanu",
+  //   "id": "5f2d5a20-dc42-4c6d-a211-daabbbbf4463",
+  //   "todos": [
+  //     {
+  //       "id": "f1d1911c-3b09-4d70-8943-188207302a1b",
+  //       "title": "arrumar carro",
+  //       "done": false,
+  //       "deadline": "2021-03-15T00:00:00.000Z",
+  //       "createdAt": "2021-03-15T10:32:29.818Z"
+  //     },
+  //     {
+  //       "id": "a20a35e7-ad56-4367-99c1-1fb36fa26fb5",
+  //       "title": "pintar casa",
+  //       "done": false,
+  //       "deadline": "2021-03-15T00:00:00.000Z",
+  //       "createdAt": "2021-03-15T10:32:33.666Z"
+  //     }
+  //   ]
+  // }
 ];
 
 // ------------> MIDDLEWARE <------------
@@ -143,7 +143,7 @@ app.post('/users', (req, res) => {
 //Buscar lista dos usuários cadastrados
 app.get('/users', (req, res) => {
   //mostre no console a tabela 'users'
-  console.log("Retorno: tabela 'users' | ", users)
+  //console.log("Retorno: tabela 'users' | ", users)
 
   //retorne na rota a tabela 'users'
   return res.json(users);
@@ -160,7 +160,6 @@ app.get('/todos', checksExistsUserAccount, (req, res) => {
   //    console.log("Retorno 2: 'todos' do usuário |", user.todos);
   return res.json(user.todos);
 })
-
 
 //Buscar to-do de um usuário (apenas 1)
 app.get('/todos/:id', checksExistsUserAccount, checksExistsTodo, (req, res) => {
@@ -270,15 +269,15 @@ app.patch('/todos/:id/done', checksExistsUserAccount, checksExistsTodo, (req, re
 app.delete('/todos/:id', checksExistsUserAccount, checksExistsTodo, (req, res) => {
 
   const { id } = req.params;
-  console.log("Retorno 1: 'id' do req.params | ", id);
+  // console.log("Retorno 1: 'id' do req.params | ", id);
 
   // dados de usuário
   const { user } = req;
-  console.log("Retorno 2: desestruturar objeto do 'user'  | ", user)
+  // console.log("Retorno 2: desestruturar objeto do 'user'  | ", user)
 
   // splice: no array 'user.todos' faça uma busca do 'todo' com ID correspondente ao inserido no 'req.params' em seguida remova este elemento.
   user.todos.splice(id, 1)
-  console.log("Retorno 3: array de 'todos' do usuário | ", user.todos)
+  // console.log("Retorno 3: array de 'todos' do usuário | ", user.todos)
 
   return res.status(204).json(user.todos);
 

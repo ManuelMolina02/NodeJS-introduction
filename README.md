@@ -1,15 +1,42 @@
-# CHALLENGE ONE - IGNITE | INTRODUCTION NODEJS
+# CHALLENGE ONE - IGNITE | Node.js Concepts
+
+## 💻 Sobre o desafio
+
+Nesse desafio, será desenvolvida uma aplicação para gerenciar tarefas. Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
+
+- Criar um novo *todo*;
+- Listar todos os *todos*;
+- Alterar o `title` e `deadline` de um *todo* existente;
+- Marcar um *todo* como feito;
+- Excluir um *todo*;
+
+Tudo isso para cada usuário em específico (o `username` será passado pelo header).
+
+
+### Testes de usuários
+
+- **Should be able to create a new user**
+- **Should not be able to create a new user when username already exists**
+
+### Testes de *todos*
+- **Should be able to list all user's todos**
+- **Should be able to create a new todo**
+- **Should be able to update a todo**
+- **Should not be able to update a non existing todo**
+- **Should be able to mark a todo as done**
+- **Should not be able to mark a non existing todo as done**
+- **Should be able to delete a todo**
+- **Should not be able to delete a non existing todo**
 
 ## Methods and Parameters used
 
 ### Types of Parameters
 
-- Route Params => Sempre que for necessário identificar um recurso editar/ deletar/ buscar
+- Route Params => Necessário para identificar um recurso editar/ deletar/ buscar
 
 - Query Params => são utilizados em momentos de páginação, filtros 
 
 - Body Params => Os objetos de inserção ou alteração (JSON)
-
 
 
 ### Methods HTTP(REST API) of Activities
@@ -23,7 +50,6 @@
  - PATCH - Alterar uma informação específica
 
  - DELETE - Remover uma informação do servidor
-
 
 
 ### Methods JavaScript of Activities
@@ -46,32 +72,4 @@
 
       * Neste exemplo 'p' representa posição, que é um argumento esperado pelo splice
 
-
-
-## Aplicações presentes no código
-
-
-## Ações em Usuários
-
-### Rotas
-- [x] Criar conta de usuário.
-- [x] Buscar lista dos usuários cadastrados.
-
-### Regras de Negócio
-- [x] Não pode ser criado um usuário com um username já utilizado.
-- [x] Não realizar ações em um usuário inexistente.
-
-
-## Ações em Todos
-
-### Rotas
-- [x] Criar todo para um usuário.
-- [x] Buscar to-dos de um usuário. (1 ou + de 1)
-- [x] Buscar um todo de um usuário. (1)
-- [x] Edita um todo de um usuário.
-- [x] Edita um elemento do todo de um usuário.
-- [x] Excluir um todo.
-
-### Regras de Negócio
-- [x] Não realizar ações em um usuário inexistente.
-- [x] Não realizar ações em um to-do inexistente.
+Feito com 💜 por Manuel Molina 👋 Me contate através do [LinkedIn!](https://www.linkedin.com/in/manuel-angel-berger-molina-ba08b3174/)

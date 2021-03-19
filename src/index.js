@@ -151,7 +151,7 @@ app.get('/users', (req, res) => {
 
 // ----->>  ATIVIDADES || TO-DOS <<-----
 
-//Buscar to-dos de um usuário (+1)
+//Buscar to-dos de um usuário (1 ou + de 1)
 app.get('/todos', checksExistsUserAccount, (req, res) => {
   //usar dados de usuário no req
   const { user } = req;

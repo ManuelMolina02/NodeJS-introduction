@@ -1,4 +1,4 @@
-# CHALLENGE ONE - IGNITE | Node.js Concepts
+# 🚀 CHALLENGE ONE - IGNITE | Node.js Concepts
 
 ## 💻 Sobre o desafio
  Neste desafio desenvolvi uma aplicação para gerenciar tarefas.   Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
@@ -27,7 +27,7 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 - **Should be able to delete a todo**
 - **Should not be able to delete a non existing todo**
 
-## Methods and Parameters used
+## ⚙ Methods and Parameters used
 
 ### Types of Parameters
 

@@ -1,7 +1,7 @@
 # CHALLENGE ONE - IGNITE | Node.js Concepts
 
 ## 💻 Sobre o desafio
-- Nesse desafio desenvolvi uma aplicação para gerenciar tarefas. Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
+ Neste desafio desenvolvi uma aplicação para gerenciar tarefas.   Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
 
 - Criar um novo *todo*;
 - Listar todos os *todos*;

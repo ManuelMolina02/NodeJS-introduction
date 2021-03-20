@@ -1,15 +1,16 @@
 # 🚀 Challenge One - Ignite | Node.js Concepts
 
 ## 🔭 Sobre o desafio
- Neste desafio desenvolvi uma aplicação para gerenciar tarefas.   Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
-
+ Neste desafio desenvolvi a estrutura de rotas e middlewares presentes na aplicação onde a proposta é gerenciar tarefas.   Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
+ 
 - Criar um novo *todo*;
 - Listar todos os *todos*;
 - Alterar o `title` e `deadline` de um *todo* existente;
 - Marcar um *todo* como feito;
 - Excluir um *todo*;
 
-Tudo isso para cada usuário em específico (o `username` será passado pelo header).
+Tudo isso para cada usuário em específico (o `username` será passado pelo header). Para garantir que todas as etapas estão sendo cumpridas como proposto a Rocketseat já forneceu uma estrutura com os testes de validação implementados, onde cada participante deve criar as rotas com as regras de negócio aplicadas.
+
 
 ## ⚠ Validação de Requisitos:
 

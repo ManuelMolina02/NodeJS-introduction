@@ -15,41 +15,41 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 
 ### 📡 Testes de usuários
 
-- **Should be able to create a new user**
-- **Should not be able to create a new user when username already exists**
+- *Should be able to create a new user*
+- *Should not be able to create a new user when username already exists*
 
 ### 📡 Testes de *todos*
-- **Should be able to list all user's todos**
-- **Should be able to create a new todo**
-- **Should be able to update a todo**
-- **Should not be able to update a non existing todo**
-- **Should be able to mark a todo as done**
-- **Should not be able to mark a non existing todo as done**
-- **Should be able to delete a todo**
-- **Should not be able to delete a non existing todo**
+- *Should be able to list all user's todos*
+- *Should be able to create a new todo*
+- *Should be able to update a todo*
+- *Should not be able to update a non existing todo*
+- *Should be able to mark a todo as done*
+- *Should not be able to mark a non existing todo as done*
+- *Should be able to delete a todo*
+- *Should not be able to delete a non existing todo*
 
 ## 🧰 Methods and Parameters used
 
 ### 🔧 Types of Parameters
 
-- Route Params => Necessário para identificar um recurso editar/ deletar/ buscar
+- *Route Params* - Necessário para identificar um recurso editar/ deletar/ buscar
 
-- Query Params => são utilizados em momentos de páginação, filtros 
+- *Query Params* - São utilizados em momentos de páginação, filtros 
 
-- Body Params => Os objetos de inserção ou alteração (JSON)
+- *Body Params* - Os objetos de inserção ou alteração (JSON)
 
 
 ### 🔩 Methods HTTP(REST API) of Activities
 
- - GET - Buscar informação dentro do servidor
+ - *GET* - Buscar informação dentro do servidor
 
- - POST - Inserir uma informação no servidor
+ - *POST* - Inserir uma informação no servidor
 
- - PUT - Alterar uma informação no servidor
+ - *PUT* - Alterar uma informação no servidor
 
- - PATCH - Alterar uma informação específica
+ - *PATCH* - Alterar uma informação específica
 
- - DELETE - Remover uma informação do servidor
+ - *DELETE* - Remover uma informação do servidor
 
 
 ### ⚙ Methods JavaScript of Activities

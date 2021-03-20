@@ -56,19 +56,19 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
 
  - [find()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - [retorna dado do 1° elemento correspondente]
     - Demonstração:
-    🔷 🔶 🔵 🔴 find(🔵) = 🔵
+        array: [ 🔷  🔶  🔵  🔴 ]   ||   method: find(🔵) = 🔵
     
  - [some()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/some) - [retorna booleano do 1° elemento correspondente]
     - Demonstração:
-    🔷 🔶 🔵 🔴 some(🔵) = true
+        array: [ 🔷  🔶  🔵  🔴 ]   ||   method: some(🔵) = true
 
  - [filter()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - [filtra o(s) elemento(s) correspondente(s)]
     - Demonstração:
-    🔷 🔶 🔵 🔴 filter🔵 = 🔵 🔴
+        array: [ 🔷  🔶  🔵  🔴 ]   ||   method: filter(🔵) = 🔵 🔴
 
 - [splice()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) - [altera/ remove a posição do elemento correspondente]
     - Demonstração:
-    🔷 🔶 🔵 🔴 splice(🔵,1) = 🔷 🔶 🔴
+        array: [ 🔷  🔶  🔵  🔴 ]   ||   method: splice(🔵,1) = 🔷 🔶 🔴
 
       * Neste exemplo 'p' representa posição, que é um argumento esperado pelo splice
 

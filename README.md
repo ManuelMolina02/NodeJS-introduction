@@ -70,6 +70,24 @@ Tudo isso para cada usuário em específico (o `username` será passado pelo hea
     - Demonstração:
           🔷  🔶  🔵  🔴  -  splice(🔵,1) = 🔷 🔶 🔴
 
-      * Neste exemplo 'p' representa posição, que é um argumento esperado pelo splice
+
+## 🤔 Como rodar o projeto?
+
+- Faça um clone desse repositório;
+- Acesse o local desejado através do terminal e digite: 
+```sh
+git clone https://github.com/ManuelMolina02/NodeJS-introduction-challenge-one.git
+```
+Após baixar o projeto, acesse ele via seu terminal rode os comandos:
+
+```sh
+yarn install
+yarn dev
+```
+Ou se quiser rodar os testes de validação, via seu terminal rode o comando:
+```sh
+yarn test
+```
+
 
 Feito com 💜 por Manuel Molina 👋 Me contate através do [LinkedIn!](https://www.linkedin.com/in/manuel-angel-berger-molina-ba08b3174/)
